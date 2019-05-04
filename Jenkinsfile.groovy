@@ -1,5 +1,5 @@
 node{
-     properties([parameters([string(defaultValue: 'IP', description: 'Where to build e.g IP', name: 'ENV', trim: true)])])
+    properties([parameters([string(defaultValue: 'IP', description: 'where to build e.g IP', name: 'ENV'"", trim: true)])])
     stage("clone repo"){
         git 'git@github.com:daudmu21/Flaskex.git'
     }
